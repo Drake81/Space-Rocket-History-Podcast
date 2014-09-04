@@ -2,19 +2,19 @@
     "version" : 0,
 
     "feeds" : [
-        "http://feeds.feedburner.com/EinschlafenPodcastEnhanced?format=xml"
+        "http://feeds.feedburner.com/SpaceRocketHistory?format=xml"
         ],
 
-    "user_agent" : "EinschlafenPodcast/1.0",
+    "user_agent" : "SpaceRocketHistoryAndroid/1.0",
     
     "config" : {
-        "pauseOnHeadsetDisconnect" : false,
+        "pauseOnHeadsetDisconnect" : true,
         "downloadMediaOnWifiOnly" : true,
-        "allowMobileUpdates" : true,
-        "enableAutomaticDownload" : true,
+        "allowMobileUpdates" : false,
+        "enableAutomaticDownload" : false,
         "episodeCacheSize" : 314572800,
         "pauseForFocusLoss" : true,
-        "numberOfNewAutomaticallyDownloadedEpisodes" : 3
+        "numberOfNewAutomaticallyDownloadedEpisodes" : 0
     },
 
     "podcatcher" : {

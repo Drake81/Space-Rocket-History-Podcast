@@ -21,12 +21,12 @@ public class AppPreferences {
      * update their subscriptions list. Note that changing this list removes all old feeds on existing installations, which
      * means that all downloaded episodes will be deleted, too.
      */
-    public static final String[] feedUrls = {"http://feeds.feedburner.com/EinschlafenPodcastEnhanced?format=xml"};
+    public static final String[] feedUrls = {"http://feeds.feedburner.com/SpaceRocketHistory?format=xml"};
 
     /**
      * User-Agent header for HTTP-requests.
      */
-    public final static String USER_AGENT = "EinschlafenPodcastAndroid/1.0";
+    public final static String USER_AGENT = "SpaceRocketHistoryAndroid/1.0";
 
     /**
      * As soon as the user installs a second AntennaPod single purpose app, this app will ask the user
@@ -43,13 +43,13 @@ public class AppPreferences {
 
     // Preferences
 
-    public boolean pauseOnHeadsetDisconnect = false;
+    public boolean pauseOnHeadsetDisconnect = true;
     public boolean downloadMediaOnWifiOnly = true;
     public boolean allowMobileUpdates = false;
-    public boolean enableAutodownload = true;
+    public boolean enableAutodownload = false;
     public long episodeCacheSize = 300 * 1024 * 1024;
     public boolean pauseForFocusLoss = true;
-    public int numberOfNewAutomaticallyDownloadedEpisodes = 1;
+    public int numberOfNewAutomaticallyDownloadedEpisodes = 0;
 
 
     /**
