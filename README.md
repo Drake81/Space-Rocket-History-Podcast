@@ -1,7 +1,7 @@
-# Single Purpose Podcatcher for the Space Rocket History Podcast
+# Single Purpose App for Space Rocket History Podcast
 
 You could use this app to hear the [Space Rocket History Podcast](http://spacerockethistory.com/) by [Michael Annis](https://twitter.com/@spacerockethist).
-The app based upon the AntennaPod Single Purpose app from @danieloeh, which was initially created for [Einschlafen Podcast](http://einschlafen-podcast.de/einschlafen-podcast-app/) by tobybaier.
+The app based upon the AntennaPod Single Purpose app from [danieloeh](https://github.com/danieloeh), which was initially created for [Einschlafen Podcast](http://einschlafen-podcast.de/einschlafen-podcast-app/) by [tobybaier](https://github.com/tobybaier).
 
 # AntennaPod Single Purpose
 
